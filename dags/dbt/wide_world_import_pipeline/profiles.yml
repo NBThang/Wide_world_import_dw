@@ -1,0 +1,14 @@
+wide_world_import_pipeline:
+  outputs:
+    dev:
+      project: learn-build-dw
+      keyfile: D:\Wide_World_Importer_dw\wide_world_import_pipeline\conf\learn-build-dw-cf8cc100745a.json
+      dataset: wide_world_importers_dwh
+      location: asia-southeast1
+      type: bigquery
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      method: service-account
+      priority: interactive
+      threads: 4
+  target: dev

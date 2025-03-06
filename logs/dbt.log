@@ -1,0 +1,15 @@
+[0m00:02:53.227075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013269046850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013269044110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000132690468D0>]}
+
+
+============================== 00:02:53.232429 | bd922f5b-31bc-4bca-b2cd-e7c2ae52a582 ==============================
+[0m00:02:53.232429 [info ] [MainThread]: Running with dbt=1.9.2
+[0m00:02:53.234354 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Name\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m00:02:53.235343 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\wide_world_import_pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:02:53.237343 [debug] [MainThread]: Command `dbt run` failed at 00:02:53.237343 after 0.10 seconds
+[0m00:02:53.238344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013269093D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013269046150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000132690468D0>]}
+[0m00:02:53.238344 [debug] [MainThread]: Flushing usage events
+[0m00:02:54.539224 [debug] [MainThread]: An error was encountered while trying to flush usage events

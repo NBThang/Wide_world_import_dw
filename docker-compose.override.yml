@@ -1,0 +1,5 @@
+version: '3'
+services:
+  scheduler:
+    volumes:
+      - "D:/wide_world_import_pipeline/include/bigquery-key.json:/usr/local/airflow/bigquery-key.json"
